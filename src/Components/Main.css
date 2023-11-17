@@ -14,3 +14,14 @@
 .rightside {
   width: 44.5%;
 }
+/* @media screen and (max-width: 800px){
+  .main{
+    display: block;
+  }
+  .leftside{
+    width: 100%;
+  }
+  .rightside{
+    width: 100%;
+  }
+} */
