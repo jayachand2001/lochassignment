@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.head {
+  width: 25rem;
+  height: 1.875rem;
+  margin-left: 21.125rem;
+}
+.head p {
+  color: var(--Background---F2F2F2, #f2f2f2);
+  text-align: right;
+
+  /* Heading 5 */
+  font-family: "Inter", sans-serif;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 30px */
+}
+.line {
+  width: 42.375rem;
+  height: 0.0625rem;
+  background: rgba(229, 229, 230, 0.5);
+  margin-top: 1.25rem;
+  margin-left: 3.75rem;
+}
+
+.end{
+  display: flex;
+  margin-top: 40px;
+  margin-left: 3.75rem;
+  gap: 40px;
+}
+.vector{
+  padding-top: 75px;
+}

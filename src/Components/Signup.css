@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.signup {
+  width: 22.8125rem;
+  height: 21.6875rem;
+  /* margin: 369px 138px 308px 137px; */
+  margin-top: 23.0625rem;
+  margin-left: 8.625rem;
+  margin-right: 8.5625rem;
+  margin-bottom: 19625rem;
+}
+.heading {
+  color: var(--grey-300, #b0b1b3);
+
+  /* Heading 3 */
+  font-family: "Inter", sans-serif;
+  font-size: 2.4375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  width: 20.375rem;
+  height: 5.875rem;
+  margin-top: 0rem;
+  margin-left: 0.8125rem;
+  margin-right: 1.625rem;
+  margin-bottom: 0rem;
+}
+.email {
+  display: flex;
+  width: 18.125rem;
+  margin-top: 2rem;
+  margin-left: 0.75rem;
+  margin-right: 0.8125rem;
+  padding: 20px 24px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--grey-100, #e5e5e6);
+  background: #fff;
+
+  /* ShadowDropdown */
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.04),
+    0px 4px 10px 0px rgba(0, 0, 0, 0.04);
+
+  color: var(--grey-200, #cacbcc);
+
+  /* Body */
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+.getstarted {
+  display: flex;
+  width: 21.25rem;
+  height: 3.6875rem;
+  margin-top: 1.5rem;
+  margin-left: 0.75rem;
+  margin-right: 0.8125rem;
+  padding: 18px 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--grey-900, #19191a);
+  background: var(--grey-900, #19191a);
+  color: var(--White, #fff);
+  text-align: center;
+  /* Button Label */
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 19.2px */
+}
+.getstarted:hover {
+  cursor: pointer;
+}
+.ending {
+  width: 22.8125rem;
+  height: 3.4375rem;
+  display: inline-flex;
+  margin-top: 1.5rem;
+  padding: 18px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: white;
+  color: var(--grey-900, #19191a);
+  text-align: center;
+  border-radius: 8px;
+
+  /* Button Label */
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 19.2px */
+  border: none;
+  opacity: 0.8;
+}
+.ending:hover {
+  cursor: pointer;
+}
+#error-message{
+  display: none;
+  color: red;
+  padding-left: 1.25rem;
+  font-family: "Inter", sans-serif;
+  margin-top: 1.125rem;
+}

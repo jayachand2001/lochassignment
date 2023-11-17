@@ -1,0 +1,114 @@
+.logo-list {
+  margin-left: 3.5rem;
+  width: 22.563rem;
+  height: 10.719rem;
+  overflow: hidden;
+  line-height: 0;
+  border-radius: 8.4px 0 0 8.4px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0) 27.6%, #FFF 53.13%, rgba(255, 255, 255, 0) 81.77%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.logo-list__logo-wrap {
+  width: 37.319rem;
+  height: 10.719rem;
+  display: flex;
+  gap: 14px;
+  animation: 20s repeatedslide infinite linear;
+  margin-left: 20px;
+  border-radius: 8.4px;
+}
+.logo-list__logo1 {
+  width: 11.856rem;
+  height: 10.719rem;
+  border-radius: 8.4px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 27.5%,
+      rgba(22, 93, 255, 0.16) 157.71%
+    ),
+    #fff;
+  box-shadow: 0px 0.7px 0.7px 0px rgba(0, 0, 0, 0.04),
+    0px 2.8px 7px 0px rgba(0, 0, 0, 0.04);
+}
+.logo-list__logo2 {
+  width: 11.856rem;
+  height: 10.719rem;
+  border-radius: 8.4px;
+  background: #fff;
+  box-shadow: 0px 0.7px 0.7px 0px rgba(0, 0, 0, 0.04),
+    0px 2.8px 7px 0px rgba(0, 0, 0, 0.04);
+}
+.logo-list__logo3 {
+  width: 11.856rem;
+  height: 10.719rem;
+  border-radius: 8.4px;
+  background: #fff;
+  box-shadow: 0px 0.7px 0.7px 0px rgba(0, 0, 0, 0.04),
+    0px 2.8px 7px 0px rgba(0, 0, 0, 0.04);
+}
+.logo-list__logo-wrap:hover {
+  animation-play-state: paused;
+}
+.sub-logo-list {
+  padding: 14px;
+}
+@keyframes repeatedslide {
+  to {
+    margin-left: -80%;
+    margin-right: 100%;
+  }
+}
+
+.icons {
+  display: flex;
+  gap: 120px;
+}
+.text1 {
+  color: var(--grey-900, #19191a);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  font-size: 9.1px;
+}
+.text2 {
+  color: var(--grey-900, #19191a);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  font-size: 11.2px;
+}
+.text3 {
+  color: var(--grey-900, #19191a);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  font-size: 0.875rem;
+}
+.hellobutton {
+  width: 10.106rem;
+  height: 2.188rem;
+  padding: 8.4px 11.2px;
+  align-items: center;
+  border-radius: 5.6px;
+  border: 0.7px solid var(--neutral-300, #d4d4d4);
+  background: #fff;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.select {
+  display: inline-flex;
+  padding: 4.2px;
+  align-items: center;
+  gap: 2.8px;
+  width: 4.15rem;
+  height: 1.219rem;
+  color: var(--grey-800, #313233);
+  border-radius: 2.8px;
+  background: var(--grey-50, rgba(229, 229, 230, 0.5));
+}
